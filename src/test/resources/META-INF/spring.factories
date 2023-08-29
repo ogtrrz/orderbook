@@ -1,0 +1,7 @@
+org.springframework.test.context.ContextCustomizerFactory = mx.wf.microservices.\
+    orderbook.config.TestContainersSpringContextCustomizerFactory,mx.wf.\
+    microservices.orderbook.config.\
+    SqlTestContainersSpringContextCustomizerFactory,mx.wf.microservices.\
+    orderbook.config.KafkaTestContainersSpringContextCustomizerFactory,mx.wf.\
+    microservices.orderbook.config.\
+    RedisTestContainersSpringContextCustomizerFactory
